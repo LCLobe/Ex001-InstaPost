@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+}
+div{
+    box-sizing:border-box;
+    margin: 5px 0px;
+    border: 3px;
+    /*border-color: aqua;
+    border-style: solid;*/
+}
+p, h4 {
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    margin: 0px;
+}
+.header-tittle h4, .header-tittle p{
+    font-size: small;
+    padding: 0px;
+    margin: 0px;
+}
+i{
+    padding: 5px;
+    font-size: 1.6em;
+}
+img {
+    margin: 0%;
+}
+.container{
+    background-color: gainsboro;
+}
+.likes {
+    font-weight: bold;
+}
+div.container{
+    width: 500px;
+    margin: auto;
+}
+.simbolitos, .header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.simbolitos div:last-child, .header div:last-child{
+    /*background-color: red;*/
+    width: 75%;
+}
+.simbolitos div:last-child i, .header div:last-child i{
+    position: relative;
+    float: right;
+}
